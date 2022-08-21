@@ -10,7 +10,7 @@ public class Main {
                 medic, warrior, magic
         };
         for (int i = 0; i < hero.length; i++) {
-            System.out.println(hero[i]);
+            System.out.println(hero[i].printinfo());
             hero[i].applySuperAbility();
 
 

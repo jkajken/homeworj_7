@@ -35,6 +35,9 @@ public abstract class Hero implements HavingSuperAbility {
     public void setSuperAbility(String superAbility) {
         SuperAbility = superAbility;
     }
+    public String printinfo(){
+        return getHealth() + " " + getDamage();
+    }
 
 }
 
